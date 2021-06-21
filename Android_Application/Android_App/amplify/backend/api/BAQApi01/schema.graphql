@@ -1,0 +1,12 @@
+type NewsCommand @model {
+  id: ID
+  Device: String!
+  Command: String
+  NewsInfo: String
+  Url: String
+}
+
+enum PostStatus{
+   DRAFT
+   PUBLISHED
+}

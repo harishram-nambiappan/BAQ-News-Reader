@@ -1,0 +1,52 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateNewsCommand(
+  $input: CreateNewsCommandInput!
+  $condition: ModelNewsCommandConditionInput
+) {
+  createNewsCommand(input: $input, condition: $condition) {
+    id
+    Device
+    Command
+    NewsInfo
+    Url
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateNewsCommand(
+  $input: UpdateNewsCommandInput!
+  $condition: ModelNewsCommandConditionInput
+) {
+  updateNewsCommand(input: $input, condition: $condition) {
+    id
+    Device
+    Command
+    NewsInfo
+    Url
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteNewsCommand(
+  $input: DeleteNewsCommandInput!
+  $condition: ModelNewsCommandConditionInput
+) {
+  deleteNewsCommand(input: $input, condition: $condition) {
+    id
+    Device
+    Command
+    NewsInfo
+    Url
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}

@@ -1,0 +1,43 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateNewsCommand {
+  onCreateNewsCommand {
+    id
+    Device
+    Command
+    NewsInfo
+    Url
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateNewsCommand {
+  onUpdateNewsCommand {
+    id
+    Device
+    Command
+    NewsInfo
+    Url
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteNewsCommand {
+  onDeleteNewsCommand {
+    id
+    Device
+    Command
+    NewsInfo
+    Url
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}

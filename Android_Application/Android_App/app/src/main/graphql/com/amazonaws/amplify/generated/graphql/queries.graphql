@@ -1,0 +1,65 @@
+# this is an auto generated file. This will be overwritten
+query SyncNewsCommands(
+  $filter: ModelNewsCommandFilterInput
+  $limit: Int
+  $nextToken: String
+  $lastSync: AWSTimestamp
+) {
+  syncNewsCommands(
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    lastSync: $lastSync
+  ) {
+    items {
+      id
+      Device
+      Command
+      NewsInfo
+      Url
+      _version
+      _deleted
+      _lastChangedAt
+      createdAt
+      updatedAt
+    }
+    nextToken
+    startedAt
+  }
+}
+query GetNewsCommand($id: ID!) {
+  getNewsCommand(id: $id) {
+    id
+    Device
+    Command
+    NewsInfo
+    Url
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+query ListNewsCommands(
+  $filter: ModelNewsCommandFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listNewsCommands(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      Device
+      Command
+      NewsInfo
+      Url
+      _version
+      _deleted
+      _lastChangedAt
+      createdAt
+      updatedAt
+    }
+    nextToken
+    startedAt
+  }
+}

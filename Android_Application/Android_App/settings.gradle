@@ -1,0 +1,13 @@
+include ':app'
+setBinding(new Binding([gradle: this]))
+evaluate(new File(
+  settingsDir,
+  '../baq_flutter_module_1/.android/include_flutter.groovy'
+))
+rootProject.name = "BAQ_News_Reader"
+
+include ':baq_flutter_module_1'
+project(':baq_flutter_module_1').projectDir = new File('../baq_flutter_module_1')
+
+include ':baq_flutter_module_1'
+project(':baq_flutter_module_1').projectDir = new File('../baq_flutter_module_1')

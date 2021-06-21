@@ -1,0 +1,23 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-baqnewsreader-dev-94859-authRole",
+            "UnauthRoleArn": "arn:aws:iam::028754275103:role/amplify-baqnewsreader-dev-94859-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::028754275103:role/amplify-baqnewsreader-dev-94859-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-baqnewsreader-dev-94859-deployment",
+            "UnauthRoleName": "amplify-baqnewsreader-dev-94859-unauthRole",
+            "StackName": "amplify-baqnewsreader-dev-94859",
+            "StackId": "arn:aws:cloudformation:us-east-1:028754275103:stack/amplify-baqnewsreader-dev-94859/7cc0c400-d10d-11eb-9763-122daaaef175",
+            "AmplifyAppId": "d1iv7gea9akqh2"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d1iv7gea9akqh2",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}
