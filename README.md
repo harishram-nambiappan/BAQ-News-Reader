@@ -2,6 +2,7 @@
 IoT Based News Reading Application for the Physically Challenged (AWS Verizon Hackathon - 5G Edge Computing Challenge 2021)
 
 Python Version - above 3.5
+
 Important points:
 1) Create python3 virtual environments in your laptop, wavelength ec2 instance and raspberry pi
 2) In laptop virtual environment install the following packages - boto3, pyqt5 
