@@ -1,4 +1,4 @@
-access_key_id = "AKIAQNMPDNMPRBDLHHWV"
-secret_access_key = "6zjt6H1ZYt3rGk1AsE9n2o/n2/Vy0GZGryd1M+bG"
+access_key_id = "YOUR_ACCESS_KEY_ID"
+secret_access_key = "YOUR_SECRET_ACCESS_KEY"
 
 region = "us-east-1"
