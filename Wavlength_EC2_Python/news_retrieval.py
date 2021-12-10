@@ -11,7 +11,7 @@ from pydub import AudioSegment
 
 
 def get_news(topic):
-    key = "2eaeefe718044db3b75aceb0f30dae45"
+    key = "Your_NEWS_API_KEY"
     news = NewsRetrieval(key)
     data_entry = DDBEntry()
     results = news.retrieve(topic)
